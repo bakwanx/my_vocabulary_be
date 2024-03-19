@@ -54,7 +54,12 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date()
         },
-     
+        {
+          type:        "Phrase",
+          description: "A phrase is a group of words forming a part of a sentence",
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
       ]
     );
   },
