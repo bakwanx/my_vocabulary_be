@@ -1,0 +1,11 @@
+sequelize model:generate --name User --attributes email:string,password:string,fullname:string,profile:string
+sequelize model:generate --name Vocab --attributes idUser:integer,idType:integer,vocab:string,translation:string,variation:string,note:string
+sequelize model:generate --name TypeVocab --attributes type:string,description:string
+
+
+--- Command ---
+sequelize-cli db:migrate
+sequelize-cli db:seed:all
+
+--- Seeding ---
+sequelize-cli seed:generate --name type-vocab-seed

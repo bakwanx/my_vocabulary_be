@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "flutter123",
+    "database": "myvocab_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "myvocabm_myvocab",
+    "password": "myvocab123!",
+    "database": "myvocabm_my_vocab",
+    "host": "103.163.138.109",
+    "dialect": "mysql"
+  }
+}
