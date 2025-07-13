@@ -1,0 +1,18 @@
+version: "1.0"
+
+services:
+  my_vocab:
+    image: my_vocab
+    container_name: my_vocab
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: # host:container
+      - "8080:8080"
+    restart: always
+    networks:
+      - bincang_net
+
+networks:
+  bincang_net:
+    external: true

@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": "flutter123",
-    "database": "myvocab_db",
-    "host": "127.0.0.1",
+    "password": "bakwanx123!",
+    "database": "my_vocab",
+    "host": "mysql",
     "dialect": "mysql"
   },
   "test": {

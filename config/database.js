@@ -1,11 +1,11 @@
 const Sequelize = require('sequelize');
 // pass mysql for mac flutter123
 const sequelize =  new Sequelize.Sequelize(
-    "myvocab_db",
+    "my_vocab",
     "root",
-    "flutter123",
+    "bakwanx123!",
   {
-    host: "127.0.0.1",
+    host: "mysql",
     dialect: "mysql",
     operatorsAliases: false,
     pool: {
