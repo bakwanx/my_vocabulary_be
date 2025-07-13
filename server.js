@@ -10,7 +10,11 @@ const server = http.createServer(app);
 
 dotenv.config({ path: `${__dirname}/config/config.env` });
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://bakwanx.github.io',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+}));
+
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.use(morgan('dev'));
